@@ -1,0 +1,4 @@
+Line 31: Class AnalogClockControl.AnalogClock of control AnalogClock1 was not a loaded control class.
+Line 36: The property name _ExtentX in AnalogClock1 is invalid.
+Line 37: The property name _ExtentY in AnalogClock1 is invalid.
+Line 38: The property name Value in AnalogClock1 is invalid.

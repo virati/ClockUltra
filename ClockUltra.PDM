@@ -1,0 +1,638 @@
+[Root]
+Most Recent Package=Script 3899
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=i:\Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\WINNT\system32\sndrec32.exe=
+E:\WINNT\system32\mplay32.exe=
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=
+E:\WINNT\system32\MARQUEE.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\WINNT\system32\MSCAL.OCX=
+E:\WINNT\system32\COMCT332.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+I:\My Programs\ClockUltra.exe=Yes
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\COMCT332.OCX=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\WINNT\system32\PICCLP32.OCX=Yes
+E:\WINNT\system32\RICHTX32.OCX=Yes
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+E:\WINNT\system32\MSMASK32.OCX=Yes
+E:\WINNT\system32\MARQUEE.OCX=Yes
+E:\WINNT\system32\MSCAL.OCX=Yes
+E:\WINNT\system32\MCI32.OCX=Yes
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=Yes
+E:\WINNT\system32\mplay32.exe=Yes
+E:\WINNT\system32\sndrec32.exe=Yes
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+L:\MSVS6\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+I:\My Programs\ClockUltra.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINNT\system32\PICCLP32.OCX=$(WinSysPath)
+E:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+E:\WINNT\system32\MARQUEE.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+E:\WINNT\system32\MCI32.OCX=$(WinSysPath)
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=$(AppPath)
+E:\WINNT\system32\mplay32.exe=$(WinSysPath)
+E:\WINNT\system32\sndrec32.exe=$(AppPath)
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+L:\MSVS6\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+I:\My Programs\ClockUltra.exe=No
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=No
+E:\WINNT\system32\sndrec32.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=720 KB
+Title=ClockUltra
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=ClockUltra
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|ClockUltra]
+Icon1=ClockUltra.exe
+Title1=ClockUltra
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=i:\Setup
+ProjectFolder=I:\Projects\Clock Ultra
+ServerSideCab=
+File1=i:\Setup\setup.exe
+File2=i:\Setup\Setup.Lst
+File3=i:\Setup\ClockUltra.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Clock Ultra2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=a:\
+
+[Package|Clock Ultra2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Clock Ultra2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Clock Ultra2|Files Found]
+
+[Package|Clock Ultra2|Files Released]
+
+[Package|Clock Ultra2|Missing Dependency Information]
+E:\WINNT\system32\sndrec32.exe=
+E:\WINNT\system32\mplay32.exe=
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=
+E:\WINNT\system32\MARQUEE.OCX=
+
+[Package|Clock Ultra2|Out-of-Date Dependency Information]
+E:\WINNT\system32\MSCAL.OCX=
+E:\WINNT\system32\COMCT332.OCX=
+
+[Package|Clock Ultra2|Files Added]
+
+[Package|Clock Ultra2|Files Removed]
+
+[Package|Clock Ultra2|Files In Project]
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\COMCT332.OCX=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\WINNT\system32\PICCLP32.OCX=Yes
+E:\WINNT\system32\RICHTX32.OCX=Yes
+E:\WINNT\system32\MSMASK32.OCX=Yes
+E:\WINNT\system32\MARQUEE.OCX=Yes
+E:\WINNT\system32\MSCAL.OCX=Yes
+E:\WINNT\system32\MCI32.OCX=Yes
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=Yes
+E:\WINNT\system32\mplay32.exe=Yes
+E:\WINNT\system32\sndrec32.exe=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+I:\Projects\Clock Ultra\Clock Ultra.exe=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Clock Ultra2|Configure Registry Files]
+Applicable=No
+
+[Package|Clock Ultra2|Configure Remote Servers]
+Applicable=No
+
+[Package|Clock Ultra2|Install Locations]
+I:\My Programs\ClockUltra.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINNT\system32\PICCLP32.OCX=$(WinSysPath)
+E:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+E:\WINNT\system32\MARQUEE.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+E:\WINNT\system32\MCI32.OCX=$(WinSysPath)
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=$(AppPath)
+E:\WINNT\system32\mplay32.exe=$(WinSysPath)
+E:\WINNT\system32\sndrec32.exe=$(AppPath)
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+L:\MSVS6\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+I:\Projects\Clock Ultra\Clock Ultra.exe=$(AppPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Clock Ultra2|Configure Shared Files]
+Applicable=Yes
+I:\My Programs\ClockUltra.exe=No
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=No
+E:\WINNT\system32\sndrec32.exe=No
+I:\Projects\Clock Ultra\Clock Ultra.exe=No
+
+[Package|Clock Ultra2|Distribution]
+Type=multi
+Size=720 KB
+Title=Clock Ultra
+
+[Package|Clock Ultra2|Package]
+PackageFolder=i:\temp
+ProjectFolder=I:\Projects\Clock Ultra
+ServerSideCab=
+File1=i:\temp\setup.exe
+File2=i:\temp\Setup.Lst
+File3=i:\temp\Clock Ultra.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Clock Ultra2|IconGroups]
+Group0=ClockUltra
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Clock Ultra2|ClockUltra]
+Icon1=ClockUltra.exe
+Title1=ClockUltra
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Clock Ultra1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=i:\temp
+
+[Package|Clock Ultra1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Clock Ultra1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Clock Ultra1|Files Found]
+
+[Package|Clock Ultra1|Files Released]
+
+[Package|Clock Ultra1|Missing Dependency Information]
+E:\WINNT\system32\sndrec32.exe=
+E:\WINNT\system32\mplay32.exe=
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=
+E:\WINNT\system32\MARQUEE.OCX=
+I:\vbpro\Extra Tools\new8\JWCSMIDI.ocx=
+E:\WINNT\system32\VBUMidiPlayer.ocx=
+
+[Package|Clock Ultra1|Out-of-Date Dependency Information]
+E:\WINNT\system32\MSCAL.OCX=
+E:\WINNT\system32\COMCT332.OCX=
+
+[Package|Clock Ultra1|Files Added]
+
+[Package|Clock Ultra1|Files Removed]
+
+[Package|Clock Ultra1|Files In Project]
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\COMCT332.OCX=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\WINNT\system32\RICHTX32.OCX=Yes
+E:\WINNT\system32\MSMASK32.OCX=Yes
+E:\WINNT\system32\MSCAL.OCX=Yes
+E:\WINNT\system32\MCI32.OCX=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+I:\Projects\Clock Ultra\Clock Ultra.exe=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\WINNT\system32\VBUMidiPlayer.ocx=Yes
+I:\vbpro\Extra Tools\new8\JWCSMIDI.ocx=Yes
+
+[Package|Clock Ultra1|Configure Registry Files]
+Applicable=No
+
+[Package|Clock Ultra1|Configure Remote Servers]
+Applicable=No
+
+[Package|Clock Ultra1|Install Locations]
+I:\My Programs\ClockUltra.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINNT\system32\PICCLP32.OCX=$(WinSysPath)
+E:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+L:\MSVS6\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+E:\WINNT\system32\MARQUEE.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+E:\WINNT\system32\MCI32.OCX=$(WinSysPath)
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=$(AppPath)
+E:\WINNT\system32\mplay32.exe=$(WinSysPath)
+E:\WINNT\system32\sndrec32.exe=$(AppPath)
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+L:\MSVS6\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+L:\MSVS6\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+I:\Projects\Clock Ultra\Clock Ultra.exe=$(AppPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\WINNT\system32\VBUMidiPlayer.ocx=$(WinSysPath)
+I:\vbpro\Extra Tools\new8\JWCSMIDI.ocx=$(WinSysPath)
+
+[Package|Clock Ultra1|Configure Shared Files]
+Applicable=Yes
+I:\My Programs\ClockUltra.exe=No
+E:\Program Files\Common Files\Microsoft Shared\Datamap\MSMAP.EXE=No
+E:\WINNT\system32\sndrec32.exe=No
+I:\Projects\Clock Ultra\Clock Ultra.exe=No
+
+[Package|Clock Ultra1|Distribution]
+Type=single
+Size=720 KB
+Title=Clock Ultra
+
+[Package|Clock Ultra1|Package]
+PackageFolder=i:\temp
+ProjectFolder=I:\Projects\Clock Ultra
+ServerSideCab=
+File1=i:\temp\setup.exe
+File2=i:\temp\Setup.Lst
+File3=i:\temp\Clock Ultra.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Clock Ultra1|IconGroups]
+Group0=ClockUltra
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Clock Ultra1|ClockUltra]
+Icon1=ClockUltra.exe
+Title1=ClockUltra
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Clcock Ultra 3/7/99|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=I:\Projects\Clock Ultra\program
+
+[Package|Clcock Ultra 3/7/99|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Clcock Ultra 3/7/99|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Clcock Ultra 3/7/99|Files Found]
+
+[Package|Clcock Ultra 3/7/99|Files Released]
+
+[Package|Clcock Ultra 3/7/99|Missing Dependency Information]
+I:\vbpro\Extra Tools\more\magicfrm\MagicFrm.ocx=
+I:\vbpro\Extra Tools\more\limtextbox\limitTextBox.ocx=
+I:\vbpro\Extra Tools\New1\HLink.ocx=
+E:\WINNT\system32\VBUMidiPlayer.ocx=
+
+[Package|Clcock Ultra 3/7/99|Out-of-Date Dependency Information]
+E:\WINNT\system32\MSCAL.OCX=
+E:\WINNT\system32\COMCT332.OCX=
+
+[Package|Clcock Ultra 3/7/99|Files Added]
+
+[Package|Clcock Ultra 3/7/99|Files Removed]
+
+[Package|Clcock Ultra 3/7/99|Files In Project]
+I:\Projects\Clock Ultra\ClockUltra.exe=Yes
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\COMCT332.OCX=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\WINNT\system32\MSCAL.OCX=Yes
+E:\WINNT\system32\VBUMidiPlayer.ocx=Yes
+I:\vbpro\Extra Tools\New1\HLink.ocx=Yes
+I:\vbpro\Extra Tools\more\swbtop\SWBTopForm.ocx=Yes
+I:\vbpro\Extra Tools\more\limtextbox\limitTextBox.ocx=Yes
+E:\WINNT\system32\AnalogClock.ocx=Yes
+E:\WINNT\system32\AnalogClock.DEP=Yes
+E:\Program Files\AnalogClock\AnalogClockDemo.vbp=Yes
+E:\Program Files\AnalogClock\AnalogClockDemo.vbw=Yes
+E:\Program Files\AnalogClock\Form1.frm=Yes
+E:\Program Files\AnalogClock\Form1.frx=Yes
+E:\Program Files\AnalogClock\AnalogClockDemo.exe=Yes
+I:\vbpro\Extra Tools\more\magicfrm\MagicFrm.ocx=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Clcock Ultra 3/7/99|Configure Registry Files]
+Applicable=No
+
+[Package|Clcock Ultra 3/7/99|Configure Remote Servers]
+Applicable=No
+
+[Package|Clcock Ultra 3/7/99|Install Locations]
+I:\Projects\Clock Ultra\ClockUltra.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+E:\WINNT\system32\VBUMidiPlayer.ocx=$(WinSysPath)
+I:\vbpro\Extra Tools\New1\HLink.ocx=$(WinSysPath)
+I:\vbpro\Extra Tools\more\swbtop\SWBTopForm.ocx=$(WinSysPath)
+I:\vbpro\Extra Tools\more\limtextbox\limitTextBox.ocx=$(WinSysPath)
+E:\WINNT\system32\AnalogClock.ocx=$(WinSysPath)
+E:\WINNT\system32\AnalogClock.DEP=$(AppPath)
+E:\Program Files\AnalogClock\AnalogClockDemo.vbp=$(AppPath)
+E:\Program Files\AnalogClock\AnalogClockDemo.vbw=$(AppPath)
+E:\Program Files\AnalogClock\Form1.frm=$(AppPath)
+E:\Program Files\AnalogClock\Form1.frx=$(AppPath)
+E:\Program Files\AnalogClock\AnalogClockDemo.exe=$(ProgramFiles)\AnalogClock
+I:\vbpro\Extra Tools\more\magicfrm\MagicFrm.ocx=$(WinSysPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Clcock Ultra 3/7/99|Configure Shared Files]
+Applicable=Yes
+I:\Projects\Clock Ultra\ClockUltra.exe=No
+E:\WINNT\system32\AnalogClock.DEP=No
+E:\Program Files\AnalogClock\AnalogClockDemo.vbp=No
+E:\Program Files\AnalogClock\AnalogClockDemo.vbw=No
+E:\Program Files\AnalogClock\Form1.frm=No
+E:\Program Files\AnalogClock\Form1.frx=No
+E:\Program Files\AnalogClock\AnalogClockDemo.exe=No
+
+[Package|Clcock Ultra 3/7/99|Distribution]
+Type=single
+Size=1.44 MB
+Title=Clock Ultra
+
+[Package|Clcock Ultra 3/7/99|IconGroups]
+Group0=Clock Ultra
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Clcock Ultra 3/7/99|Clock Ultra]
+Icon1=ClockUltra.exe
+Title1=Clock Ultra
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Clcock Ultra 3/7/99|Package]
+PackageFolder=I:\Projects\Clock Ultra\program
+ProjectFolder=I:\Projects\Clock Ultra
+ServerSideCab=
+File1=I:\Projects\Clock Ultra\program\setup.exe
+File2=I:\Projects\Clock Ultra\program\Setup.Lst
+File3=I:\Projects\Clock Ultra\program\ClockUltra.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Script 3899|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=I:\Projects\Clock Ultra\program
+
+[Package|Script 3899|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Script 3899|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Script 3899|Files Found]
+
+[Package|Script 3899|Files Released]
+AnalogClockDemo.exe=
+
+[Package|Script 3899|Missing Dependency Information]
+E:\WINNT\system32\MagicFrm.ocx=
+E:\WINNT\system32\limitTextBox.ocx=
+E:\WINNT\system32\SWBTopForm.ocx=
+E:\WINNT\system32\HLink.ocx=
+E:\WINNT\system32\VBUMidiPlayer.ocx=
+
+[Package|Script 3899|Out-of-Date Dependency Information]
+E:\WINNT\system32\MSCAL.OCX=
+E:\WINNT\system32\COMCT332.OCX=
+
+[Package|Script 3899|Files Added]
+
+[Package|Script 3899|Files Removed]
+
+[Package|Script 3899|Files In Project]
+I:\Projects\Clock Ultra\ClockUltra.exe=Yes
+E:\WINNT\system32\MSVBVM60.DLL=Yes
+E:\WINNT\system32\OLEAUT32.DLL=Yes
+E:\WINNT\system32\OLEPRO32.DLL=Yes
+E:\WINNT\system32\ASYCFILT.DLL=Yes
+E:\WINNT\system32\STDOLE2.TLB=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\COMCT332.OCX=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\WINNT\system32\MSCAL.OCX=Yes
+E:\WINNT\system32\VBUMidiPlayer.ocx=Yes
+E:\WINNT\system32\HLink.ocx=Yes
+E:\WINNT\system32\SWBTopForm.ocx=Yes
+E:\WINNT\system32\limitTextBox.ocx=Yes
+E:\WINNT\system32\AnalogClock.ocx=Yes
+E:\WINNT\system32\AnalogClock.DEP=Yes
+E:\Program Files\AnalogClock\AnalogClockDemo.vbp=Yes
+E:\Program Files\AnalogClock\AnalogClockDemo.vbw=Yes
+E:\Program Files\AnalogClock\Form1.frm=Yes
+E:\Program Files\AnalogClock\Form1.frx=Yes
+E:\WINNT\system32\MagicFrm.ocx=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Script 3899|Configure Registry Files]
+Applicable=No
+
+[Package|Script 3899|Configure Remote Servers]
+Applicable=No
+
+[Package|Script 3899|Install Locations]
+I:\Projects\Clock Ultra\ClockUltra.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+E:\WINNT\system32\VBUMidiPlayer.ocx=$(WinSysPath)
+E:\WINNT\system32\HLink.ocx=$(WinSysPath)
+E:\WINNT\system32\SWBTopForm.ocx=$(WinSysPath)
+E:\WINNT\system32\limitTextBox.ocx=$(WinSysPath)
+E:\WINNT\system32\AnalogClock.ocx=$(WinSysPath)
+E:\WINNT\system32\AnalogClock.DEP=$(AppPath)
+E:\Program Files\AnalogClock\AnalogClockDemo.vbp=$(AppPath)
+E:\Program Files\AnalogClock\AnalogClockDemo.vbw=$(AppPath)
+E:\Program Files\AnalogClock\Form1.frm=$(AppPath)
+E:\Program Files\AnalogClock\Form1.frx=$(AppPath)
+E:\WINNT\system32\MagicFrm.ocx=$(WinSysPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+L:\MSVBCJ\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+L:\MSVBCJ\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Script 3899|Configure Shared Files]
+Applicable=Yes
+I:\Projects\Clock Ultra\ClockUltra.exe=No
+E:\WINNT\system32\AnalogClock.DEP=No
+E:\Program Files\AnalogClock\AnalogClockDemo.vbp=No
+E:\Program Files\AnalogClock\AnalogClockDemo.vbw=No
+E:\Program Files\AnalogClock\Form1.frm=No
+E:\Program Files\AnalogClock\Form1.frx=No
+
+[Package|Script 3899|Distribution]
+Type=multi
+Size=720 KB
+Title=Clock Ultra
+
+[Package|Script 3899|IconGroups]
+Group0=Clock Ultra
+PrivateGroup0=False
+Parent0=$(Start Menu)
+
+[Package|Script 3899|Clock Ultra]
+Icon1=ClockUltra.exe
+Title1=Clock Ultra
+StartIn1=$(WinSysPath)
+Key1=Icon5
+
+[Package|Script 3899|Package]
+PackageFolder=I:\Projects\Clock Ultra\program
+ProjectFolder=I:\Projects\Clock Ultra
+ServerSideCab=
+File1=I:\Projects\Clock Ultra\program\setup.exe
+File2=I:\Projects\Clock Ultra\program\Setup.Lst
+File3=I:\Projects\Clock Ultra\program\ClockU1.CAB
+File4=I:\Projects\Clock Ultra\program\ClockU2.CAB
+File5=I:\Projects\Clock Ultra\program\ClockU3.CAB
+File6=I:\Projects\Clock Ultra\program\ClockU4.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

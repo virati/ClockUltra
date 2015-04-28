@@ -1,0 +1,24 @@
+Line 27: Class HyperLinkControl.HLink of control HLink5 was not a loaded control class.
+Line 49: Class HyperLinkControl.HLink of control HLink3 was not a loaded control class.
+Line 71: Class HyperLinkControl.HLink of control HLink2 was not a loaded control class.
+Line 93: Class HyperLinkControl.HLink of control HLink1 was not a loaded control class.
+Line 33: The property name _ExtentX in HLink5 is invalid.
+Line 34: The property name _ExtentY in HLink5 is invalid.
+Line 46: The property name Caption in HLink5 is invalid.
+Line 47: The property name URL in HLink5 is invalid.
+Line 27: Property MouseIcon in HLink5 could not be set.
+Line 55: The property name _ExtentX in HLink3 is invalid.
+Line 56: The property name _ExtentY in HLink3 is invalid.
+Line 68: The property name Caption in HLink3 is invalid.
+Line 69: The property name URL in HLink3 is invalid.
+Line 49: Property MouseIcon in HLink3 could not be set.
+Line 77: The property name _ExtentX in HLink2 is invalid.
+Line 78: The property name _ExtentY in HLink2 is invalid.
+Line 90: The property name Caption in HLink2 is invalid.
+Line 91: The property name URL in HLink2 is invalid.
+Line 71: Property MouseIcon in HLink2 could not be set.
+Line 99: The property name _ExtentX in HLink1 is invalid.
+Line 100: The property name _ExtentY in HLink1 is invalid.
+Line 112: The property name Caption in HLink1 is invalid.
+Line 113: The property name URL in HLink1 is invalid.
+Line 93: Property MouseIcon in HLink1 could not be set.

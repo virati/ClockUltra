@@ -1,0 +1,13 @@
+Line 28: Class AnalogClockControl.AnalogClock of control anolog1 was not a loaded control class.
+Line 56: Class MagicForms.SystemTray of control system1 was not a loaded control class.
+Line 64: Class SWBTopFormCtl.SWBTopForm of control ontop1 was not a loaded control class.
+Line 33: The property name _ExtentX in anolog1 is invalid.
+Line 34: The property name _ExtentY in anolog1 is invalid.
+Line 35: The property name Value in anolog1 is invalid.
+Line 36: The property name HandsColor in anolog1 is invalid.
+Line 59: The property name _ExtentX in system1 is invalid.
+Line 60: The property name _ExtentY in system1 is invalid.
+Line 61: The property name TextoDica in system1 is invalid.
+Line 62: The property name Icon in system1 is invalid.
+Line 67: The property name _ExtentX in ontop1 is invalid.
+Line 68: The property name _ExtentY in ontop1 is invalid.
